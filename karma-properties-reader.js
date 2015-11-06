@@ -53,10 +53,10 @@ var readProperties = function(url) {
     for(var j = 0; j < keyParts.length; j++) {
       var name = keyParts[j];
 
-      if(i === keyParts.length - 1) {
+      if(j === keyParts.length - 1) {
         pointer[name] = value;
       } else {
-        pointer[name] = {};
+        pointer[name] = pointer[name] || {};
       }
 
       pointer = pointer[name];
