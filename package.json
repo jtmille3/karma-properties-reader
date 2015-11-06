@@ -1,23 +1,23 @@
 {
-  "name": "karma-read-json",
-  "version": "1.1.0",
-  "description": "helper function for Karma to read JSON files easier",
-  "main": "karma-read-json.js",
+  "name": "karma-properties-reader",
+  "version": "0.1.0",
+  "description": "helper function for Karma to read property files easier",
+  "main": "karma-properties-reader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pizzapanther/Karma-Read-JSON.git"
+    "url": "https://github.com/jtmille/karma-properties-reader.git"
   },
   "keywords": [
     "karma",
-    "json"
+    "files"
   ],
-  "author": "Paul Bailey <paul.m.bailey@gmail.com> (http://neutrondrive.com)",
+  "author": "Jeff Miller <me@jeffmiller.name>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pizzapanther/Karma-Read-JSON/issues"
+    "url": "https://github.com/jtmille3/karma-properties-reader/issues"
   },
-  "homepage": "https://github.com/pizzapanther/Karma-Read-JSON"
+  "homepage": "https://github.com/jtmille3/karma-properties-reader"
 }
